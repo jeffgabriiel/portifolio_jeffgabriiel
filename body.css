@@ -64,7 +64,6 @@ img.logo {
 }
 
 .skills{
-    margin: 20px;
     display: grid;
     grid-template-columns: auto auto auto;
     margin: 0px 10% 0px;
@@ -90,11 +89,12 @@ img.logo {
 }
 
 .contact{
-    margin: 20px;
     display: grid;
-    grid-template-columns: auto auto;
-    margin: 0px 10% 0px;
+    grid-template-columns: 50% 50%;
+    justify-content: space-between;
+    margin: 0px 30% 0px;
     text-align: center;
+    margin-top: 30px;
 }
 
 .contact i{
@@ -108,10 +108,23 @@ img.logo {
     text-align: center;
     color: var(--color-secudary); 
     font-size: 20px;
+    right: 299px;
+}
+
+.wpp{
+    right: 299px;
+}
+.contact form{
+    color: var(--color-secudary);
+    text-align: left;
 }
 
 h1, h2, h3, h4{
     color: var(--color-secudary);
+}
+
+input[type="text"] {
+    width: 300px;
 }
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
