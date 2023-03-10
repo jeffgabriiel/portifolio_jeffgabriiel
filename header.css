@@ -10,7 +10,7 @@
 /* Style the header links */
 .header a {
   float: left;
-  color: black;
+  color: var(--main-bg-color);
   text-align: center;
   padding: 15px;
   text-decoration: none;

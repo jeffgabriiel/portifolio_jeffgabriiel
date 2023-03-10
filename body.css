@@ -27,11 +27,18 @@ img.logo {
     margin: 20px;
 }
 
+.about{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-between;
+}
+
 .about-resume{
     margin: 20px;
     font-size: x-large;
     font-weight: bold;
     color: var(--color-secudary);
+    margin-right: 100px;
 }
 
 .education {
@@ -146,5 +153,20 @@ input[type="text"] {
     .education{
         display: block;
         text-align: left;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .contact h5{
+        font-size: 15px;
     }
 }
