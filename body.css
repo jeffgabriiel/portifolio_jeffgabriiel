@@ -20,9 +20,7 @@ article{
 
 /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
 img.logo {
-    font-size: 25px;
-    font-weight: bold;
-    height: 200px;
+    height: 420px;
     border-radius: 100%;
     margin: 20px;
 }
