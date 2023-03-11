@@ -124,6 +124,31 @@ img.logo {
     text-align: left;
 }
 
+#courseSection{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    gap: 2%;
+    margin: 0% 10% 0%;
+    justify-content: center;
+}
+
+.courses{
+    border: 2px solid var(--color-secudary);
+    align-items: center;
+}
+
+.courses h1{
+    font-size: 18px;
+
+}
+.courses h2{
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-align: end;
+    opacity: 0.6;
+
+}
+
 h1, h2, h3, h4{
     color: var(--color-secudary);
 }
