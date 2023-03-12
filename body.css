@@ -43,7 +43,10 @@ img.logo {
 .education {
     border: 2px solid var(--color-secudary);
     text-align: left; 
-    margin: 75px 25% 150px 25%;
+    /*margin: 75px 25% 150px 25%;*/
+    margin-top: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
     padding: 20px;
 }
 .education-year{
