@@ -14,7 +14,8 @@ article{
 
 .title{
     text-align: center;
-    margin-top: 100px;
+    margin-top: 150px;
+    margin-bottom: 75px;
     font-weight: bold;
 }
 
@@ -42,7 +43,7 @@ img.logo {
 .education {
     border: 2px solid var(--color-secudary);
     text-align: left; 
-    margin: 30px 25% 30px 25%;
+    margin: 75px 25% 150px 25%;
     padding: 20px;
 }
 .education-year{
@@ -71,7 +72,9 @@ img.logo {
 .skills{
     display: grid;
     grid-template-columns: auto auto auto;
-    margin: 0px 10% 0px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 75px;
     
 }
 .skills i{
@@ -99,7 +102,7 @@ img.logo {
     justify-content: space-between;
     margin: 0px 30% 0px;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 75px;
 }
 
 .contact i{
@@ -127,26 +130,34 @@ img.logo {
 #courseSection{
     display: grid;
     grid-template-columns: 20% 20% 20% 20%;
-    gap: 2%;
-    margin: 0% 10% 0%;
+    gap: 30px;
+    row-gap: 30px;
+    margin: 0px 10%;
     justify-content: center;
 }
 
 .courses{
     border: 2px solid var(--color-secudary);
     align-items: center;
+    border-radius: 5px;
+    align-items: center;
+    
 }
-
+div.courses {
+    width: auto;
+    height: 100px;
+}
 .courses h1{
+    margin-left: 10px;
+    margin-top: 10px;
     font-size: 18px;
 
 }
 .courses h2{
     font-size: 12px;
-    margin-bottom: 10px;
+    margin-right: 10px;
     text-align: end;
     opacity: 0.6;
-
 }
 
 h1, h2, h3, h4{
@@ -191,5 +202,32 @@ input[type="text"] {
 @media screen and (max-width: 670px) {
     .contact h5{
         font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 670px){
+    #courseSection{
+        display: grid;
+        grid-template-columns: 50% 50% ;
+        gap: 10px;
+        row-gap: 10px;
+        margin: 0px 10%;
+        justify-content: center;
+    }
+    div.courses {
+        width: auto;
+        height: 100px;
+    }
+    .courses h1{
+        margin-left: 10px;
+        margin-top: 10px;
+        font-size: 16px;
+    
+    }
+    .courses h2{
+        font-size: 10px;
+        margin-right: 8px;
+        text-align: end;
+        opacity: 0.6;
     }
 }
