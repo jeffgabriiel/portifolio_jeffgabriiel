@@ -164,7 +164,16 @@ img.logo {
 }
 input[type="text"] {
     width: 300px;
+    background-color: var(--color-secudary);
 }
+input[type="submit"]{
+    background-color: var(--color-secudary);
+    border-radius: 2px;
+}
+input[type="submit"]:hover {
+    box-shadow: 0 3px 32px 0 aqua;
+}
+
 
 
 #courseSection{
@@ -213,7 +222,6 @@ div.courses {
     padding: 10px;
     width: 100%;
     height: 700px;
-    box-shadow: 0 3px 32px 0 var(--color-secudary);
     border-radius: 8px;
 }
 .projects:hover{
