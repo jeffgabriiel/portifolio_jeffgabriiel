@@ -28,7 +28,6 @@ img.logo {
     align-items: center;
     height: 420px;
     border-radius: 100%;
-    margin: 20px;
 }
 .column1{
     text-align: center;
@@ -41,11 +40,10 @@ img.logo {
     align-items: center;
 }
 .about-resume{
-    margin: 0px 20px 5px 35px;
+    margin: 0px 20px 5px 0px;
     font-size: x-large;
     font-weight: bold;
     color: var(--color-secudary);
-    margin-right: 100px;
     text-align: left;
     align-items: center;
 }
