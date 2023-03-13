@@ -51,6 +51,7 @@ img.logo {
     align-items: center;
     text-align: center;
     color: var(--color-secudary);
+    position: static;
 }
 .dropdown button{
     align-items: center;
@@ -58,6 +59,7 @@ img.logo {
     color: var(--main-bg-color);
     background-color: var(--color-secudary);
     font-weight: bold;
+    
 }
 .resume{
     align-items: center;
