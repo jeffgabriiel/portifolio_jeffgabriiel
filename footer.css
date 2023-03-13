@@ -13,3 +13,21 @@
     text-decoration: none;
     font-size: 47px;
 }
+
+
+@media screen and (max-width: 360px) {
+    #card-footer{
+        width: auto;
+        height: 50px;
+    }
+    #card-footer a {
+        padding: 15px;
+        font-size: 30px;
+        align-items: center;
+        height: 50px;
+    }
+    #card-footer i {
+        margin-top: 11px;
+        align-items: center;
+    }
+}

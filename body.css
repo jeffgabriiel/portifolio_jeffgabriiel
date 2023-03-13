@@ -25,21 +25,54 @@ h1, h2, h3, h4{
 
 /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
 img.logo {
+    align-items: center;
     height: 420px;
     border-radius: 100%;
     margin: 20px;
 }
+.column1{
+    text-align: center;
+}
 .about{
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 40% 20% 40%;
     justify-content: space-between;
+    margin: 0px 20%;
+    align-items: center;
 }
 .about-resume{
-    margin: 20px;
+    margin: 0px 20px 5px 35px;
     font-size: x-large;
     font-weight: bold;
     color: var(--color-secudary);
     margin-right: 100px;
+    text-align: left;
+    align-items: center;
+}
+.dropdown{
+    align-items: center;
+    text-align: center;
+    color: var(--color-secudary);
+}
+.dropdown button{
+    align-items: center;
+    text-align: center;
+    color: var(--main-bg-color);
+    background-color: var(--color-secudary);
+    font-weight: bold;
+}
+.resume{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.resume a{
+    border: 2px solid var(--color-secudary);
+    padding: 5px;
+    font-weight: bold;
+    background-color: var(--color-secudary);
+    color: var(--main-bg-color);
+    border-radius: 3px;
 }
 
 
@@ -207,6 +240,7 @@ div.courses {
 .projects a{
     color: var(--color-secudary);
 }
+
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 @media screen and (max-width: 670px) {
