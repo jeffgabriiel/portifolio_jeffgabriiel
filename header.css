@@ -1,4 +1,6 @@
-
+html{
+  scroll-behavior: smooth;
+}
 /* Style the header with a grey background and some padding */
 .header {
   overflow: hidden;
