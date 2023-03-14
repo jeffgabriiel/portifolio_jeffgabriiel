@@ -112,7 +112,6 @@ img.logo {
     margin-left: 30%;
     margin-right: 30%;
     margin-top: 75px;
-    
 }
 .skills i{
     display:inline;
@@ -187,8 +186,7 @@ input[type="submit"]:hover {
     border: 2px solid var(--color-secudary);
     align-items: center;
     border-radius: 5px;
-    align-items: center;
-    
+    align-items: center; 
 }
 div.courses {
     width: auto;

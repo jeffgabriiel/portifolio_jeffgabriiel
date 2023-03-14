@@ -21,26 +21,104 @@
   
 /* Media Query for Laptops and Desktops */
 @media (min-width: 1025px) and (max-width: 1280px){
-    body {
-        background-color: green;
-    }
-}
-  
-/* Media Query for Large screens */
-@media (min-width: 1281px) {
     html{
         scroll-behavior: smooth;
         scroll-padding-top: 65px;
     }
-    /*About*/
+
+
+    .header {
+        padding: 7px 0px;
+        background-color: var(--color-secudary);
+        top: 0;
+        height: 60px;
+    }
+    .header-right {
+        height: auto;
+        margin: 0px;
+    }
+    .header a {
+        padding: 10px;
+    }
+
+
+    .about-resume{
+        font-size: large;
+    }
     #about{
         justify-content: space-between;
         margin: 0px 10%;
     }
     img.logo {
-        height: 350px;
+        height: 300px;
+    }
+
+
+    .education h2{
+        font-size: 20px;
+    }
+    .education h4{
+        font-size: 12px;
+    }
+    .university h2{
+        font-size: 22px;
+    }
+
+
+    .skills{
+        margin-left: 20%;
+        margin-right: 15%;
+    }
+    .skills h3{
+        font-size: 16px;
+    }
+
+
+    #projectsSection{
+        margin: 0px 10%;
+    }
+    .projects{
+        height: 650px;
+    }
+    .projects h1{
+        font-size: 20px;
+    }
+    .projects h2{
+        font-size: 16px;
+    }
+    .projects h3{
+        font-size: 16px;
+    }
+
+
+    .contact{
+        margin: 0px 20% 0px;
+    }
+
+
+    #courseSection{
+        grid-template-columns: 50% 50%;
+        margin: 0px 5%;
     }
     
+
+    #card-footer {
+        font-weight: bold;
+        text-align: center;
+    }
+    #card-footer a {
+        font-size: 35px;
+    }
+}
+
+  
+/* Media Query for Large screens */
+@media (min-width: 1281px)  and (max-width: 1730px){
+    html{
+        scroll-behavior: smooth;
+        scroll-padding-top: 65px;
+    }
+
 
     .header {
         padding: 5px 0px;
@@ -52,6 +130,20 @@
         height: auto;
         margin: 0px;
     }
+    #about{
+        justify-content: space-between;
+        margin: 0px 10%;
+    }
+    img.logo {
+        height: 350px;
+    }
+    
+    .skills{
+        margin-left: 25%;
+        margin-right: 20%;
+        margin-top: 75px;
+    }
+
 
     #projectsSection{
         margin: 0px 10%;

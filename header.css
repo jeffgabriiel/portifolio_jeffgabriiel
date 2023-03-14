@@ -23,28 +23,6 @@ html{
   border-radius: 4px;
   width: auto;
 }
-
-#dropdownContact a:hover{
-  background-color: var(--main-bg-color);
-  color: var(--color-secudary);
-  font-weight: bold;
-}
-
-#dropdownContact a:active{
-  background-color: var(--main-bg-color);
-  color: var(--color-secudary);
-  font-weight: bold;
-}
-
-.dropdown-menu {
-  background-color: var(--color-secudary);
-  font-weight: bold;
-}
-
-#dropdownContact{
-  font-weight: bold;
-}
-
 /* Change the background color on mouse-over */
 .header a:hover{
   background-color: var(--main-bg-color);
