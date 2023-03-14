@@ -1,0 +1,84 @@
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    body {
+        width: 100%;
+    }
+}
+  
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    body {
+        background-color: yellow;
+    }
+}
+  
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+    body {
+        background-color: blue;
+    }
+}
+  
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+    body {
+        background-color: green;
+    }
+}
+  
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+    html{
+        scroll-behavior: smooth;
+        scroll-padding-top: 65px;
+    }
+    /*About*/
+    #about{
+        justify-content: space-between;
+        margin: 0px 10%;
+    }
+    img.logo {
+        height: 350px;
+    }
+    
+
+    .header {
+        padding: 5px 0px;
+        background-color: var(--color-secudary);
+        top: 0;
+        height: 65px;
+    }
+    .header-right {
+        height: auto;
+        margin: 0px;
+    }
+
+    #projectsSection{
+        margin: 0px 10%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 30px;
+        justify-content: space-between;
+    }
+    .projects{
+        height: 650px;
+    }
+    .projects h1{
+        font-size: 20px;
+    }
+    .projects h2{
+        font-size: 16px;
+    }
+    .projects h3{
+        font-size: 16px;
+    }
+
+
+    #card-footer {
+        font-weight: bold;
+        text-align: center;
+    }
+    #card-footer a {
+        font-size: 40px;
+    }
+}

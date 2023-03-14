@@ -62,17 +62,3 @@ html{
   display: flex;
   justify-content: center;
 }
-
-/* Add media queries for responsiveness - when the screen is 670px wide or less, stack the links on top of each other */
-@media screen and (max-width: 670px) {
-  .header-right {
-    float: none;
-    text-align: right;
-  }
-}
-
-@media (max-width: 670px) {
-    .header-right {
-      flex-direction: column;
-    }
-}
