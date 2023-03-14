@@ -216,6 +216,7 @@ div.courses {
 }
 .courses:hover{
     box-shadow: 0 3px 32px 0 aqua;
+    transition: 0.3s;
 }
 
 
@@ -235,7 +236,8 @@ div.courses {
     border-radius: 8px;
 }
 .projects:hover{
-    box-shadow: 0 3px 32px 0 aqua;
+    transition: 0.3s;
+    box-shadow: 0 3px 32px 0 aqua;    
 }
 .projects h1{
     text-align: center;
