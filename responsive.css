@@ -1,25 +1,147 @@
-/* Media Query for Mobile Devices */
-@media (max-width: 480px) {
+@media screen and (max-width: 360px) {
+
     html{
         scroll-padding-top: 60px;
     }
 
 
     .header {
-        padding: 4px 0px;
-        top: 0;
-        height: 60px;
-        width: 100%;
-    }
-    .header-right {
-        height: auto;
-        margin: 0px;
+        padding: 7px 10px;
+        height: 50px;
     }
     .header a {
-        padding: 15px;
-        font-size: 14px;
+        padding: 8px;
+        font-size: 13px;
+    }
+    .header-right {
+        align-items: center;
     }
 
+
+    #about{
+        display: flex;
+        flex-direction: column;
+        margin: 0px 0%;
+        align-items: center;
+    }
+    .about-resume{
+        font-size: large;
+        margin: 0;
+    }
+    img.logo {
+        height: 250px;
+    }
+
+    .education {
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 10px;
+    }
+    .education h2{
+        font-size: 15px;
+    }
+    .education h4{
+        font-size: 8px;
+    }
+    .university h2{
+        font-size: 16px;
+    }
+
+
+    .skills{
+        grid-template-columns: 100%;
+        align-items: center;
+    }
+    .skills i{
+        font-size: 15px;
+    }
+    .skills h3{
+        font-size: 11px;
+    }
+
+
+    #projectsSection{
+        margin: 0px 5%;
+        grid-template-columns: 100%;
+        gap: 50px;
+        
+    }
+    .projects{
+        padding: 10px;
+        height: 650px;
+        border-radius: 8px;
+    }
+    .projects h1{
+        font-size: 20px;
+    }
+    .projects h2{
+        font-size: 12px;
+    }
+    .projects h3{
+        font-size: 16px;
+    }
+
+
+    input[type="text"] {
+        width: 175px;
+        height: 20px;
+    }
+    .contact{
+        margin: 0px 1% 0px 4%;
+    }
+    .contact i{
+        font-size: 20px;
+        text-align: center;
+        color: var(--color-secudary); /*oficial color*/
+        padding: 20px;
+        align-items: center;
+    }
+    .contact a{
+        font-size: 20px;
+        align-items: center;
+    }
+    .contact h5{
+        font-size: 15px;
+    }
+    .contact p{
+        font-size: 15px;
+    }
+
+
+    
+    #courseSection{
+        grid-template-columns: 100%;
+        row-gap: 50px;
+        margin: 0px 5%;
+    }
+    div.courses {
+        width: 100%;
+    }
+    
+    #card-footer a {
+        font-size: 30px;
+    }
+}
+
+
+/* Media Query for Mobile Devices */
+@media (min-width:361px) and (max-width: 450px) {
+    html{
+        scroll-padding-top: 80px;
+    }
+
+
+    .header {
+        padding: 7px 10px;
+        height: 50px;
+    }
+    .header a {
+        padding: 8px;
+        font-size: 13px;
+    }
+    .header-right {
+        align-items: center;
+      }
 
     #about{
         display: flex;
@@ -51,15 +173,14 @@
 
 
     .skills{
-        margin-left: 3%;
-        margin-right: 1%;
+        grid-template-columns: 100%;
+        margin-left: 24%;
     }
     .skills i{
         font-size: 15px;
-        text-align: left;
     }
     .skills h3{
-        font-size: 13px;
+        font-size: 15px;
     }
 
 
@@ -78,7 +199,7 @@
         font-size: 20px;
     }
     .projects h2{
-        font-size: 16px;
+        font-size: 12px;
     }
     .projects h3{
         font-size: 16px;
@@ -106,9 +227,10 @@
         font-size: 30px;
     }
 }
+
   
 /* Media Query for low resolution  Tablets, Ipads */
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 451px) and (max-width: 767px) {
     html{
         scroll-padding-top: 60px;
     }
@@ -215,6 +337,7 @@
     }
 }
   
+
 /* Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) and (max-width: 1024px){
     html{
@@ -333,6 +456,7 @@
     }
 }
   
+
 /* Media Query for Laptops and Desktops */
 @media (min-width: 1025px) and (max-width: 1280px){
     html{
